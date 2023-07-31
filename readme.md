@@ -17,3 +17,4 @@ Changes committed to the `main` branch will be processed by a github action and 
 1. Create a key pair `ssh-keygen -m PEM -t rsa -b 4096`
 2. Upload private key as `secrets.SERVER_SSH_KEY` on github
 3. Copy public key to server using `ssh-copy-id` with username and host
+4. Set `vars.REMOTE_HOST` "www.mat.uniroma2.it", `vars.REMOTE_USER` "butterle", `vars.REMOTE_TARGET` "~/public_html/formalisation/"

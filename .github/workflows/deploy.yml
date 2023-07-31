@@ -39,9 +39,9 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }} 
           ARGS: "-rlgoDzvc -i" # default "-rlgoDzvc -i"
           SOURCE: "site/.vitepress/dist/"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }} # "www.mat.uniroma2.it"
-          REMOTE_USER: ${{ secrets.REMOTE_USER }} # "butterle"
-          TARGET: ${{ secrets.REMOTE_TARGET }}  # "~/public_html/formalisation/"
+          REMOTE_HOST: ${{ vars.REMOTE_HOST }} # "www.mat.uniroma2.it"
+          REMOTE_USER: ${{ vars.REMOTE_USER }} # "butterle"
+          TARGET: ${{ vars.REMOTE_TARGET }}  # "~/public_html/formalisation/"
           EXCLUDE: ""
           SCRIPT_BEFORE: |
             whoami
