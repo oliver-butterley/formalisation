@@ -83,7 +83,7 @@ const teamMembers: TeamMember[] = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>Our Team</template>
+    <template #title>Our Team (to be confirmed)</template>
   </VPTeamPageTitle>
   <VPTeamMembers size="small" :members="teamMembers" />
 </VPTeamPage>
