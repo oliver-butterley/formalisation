@@ -73,4 +73,4 @@ All activities will be held in the Mathematics department, University of Rome To
 
 ## Support
 
-We are grateful for the support of the mathematics department, University of Rome Tor Vergata and the excellence project.
+We are grateful for the support of the mathematics department, University of Rome Tor Vergata.  This program is funded as part of the MIUR Excellence Department Project MatMod@TOV awarded to the Department of Mathematics, University of Rome Tor Vergata.
