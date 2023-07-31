@@ -1,20 +1,9 @@
-# Workflow for building and deploying the VitePress site to server
-#
-name: Deploy VitePress site to server
+name: Deploy site to server
 
 on:
-  # Runs on pushes targeting the `main` branch. Change this to `master` if you're
-  # using the `master` branch as the default branch.
   push:
     branches: [main]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-  # ${{ secrets.SERVER_SSH_KEY }}
-  # ${{ vars.REMOTE_HOST }} # "www.mat.uniroma2.it"
-  # ${{ vars.REMOTE_USER }} # "butterle"
-  # ${{ vars.REMOTE_TARGET }} # "~/public_html/formalisation/"
 
 jobs:
   deploy:
@@ -46,10 +35,3 @@ jobs:
           REMOTE_USER: ${{ vars.REMOTE_USER }} 
           TARGET: ${{ vars.REMOTE_TARGET }}
           EXCLUDE: ""
-          SCRIPT_BEFORE: |
-            whoami
-            ls -al
-          SCRIPT_AFTER: |
-            whoami
-            ls -al
-            echo $RSYNC_STDOUT

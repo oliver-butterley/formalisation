@@ -12,7 +12,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
-      pattern: 'https://github.com/oliver-butterley/formalisation/:path',
+      pattern: 'https://github.com/oliver-butterley/formalisation/edit/main/site/:path',
       text: 'Edit this page on GitHub'
     },
     nav: [

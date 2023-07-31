@@ -8,7 +8,7 @@ layout: doc
 
 # Summary
 
-Ideas for the formalisation and Lean workshop in Rome.
+Ideas for the formalisation, Lean, [mathlib](https://leanprover-community.github.io/) workshop in Rome.
 
 - Duration: 3 days
 - Day 1: Intro to Lean; Day 2: Numbers, sets and functions; Day 3: Algebra, topology and analysis.
