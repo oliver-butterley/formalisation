@@ -4,9 +4,7 @@ editLink: true
 layout: doc
 ---
 
-<!-- https://vitepress.dev/reference/default-theme-team-page -->
-
-# Summary
+# Summary {#summary}
 
 Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.
 
@@ -21,7 +19,7 @@ This short program consists of three colloquium talks on major aspects of formal
   Everything is very preliminary
 :::
 
-# Schedule
+# Schedule {#schedule}
 
 |             | Wed 25/01/2024            | Thu 26/01/2024             | Fri 27/01/2024        |
 | :---------: | :------------------------ | :------------------------- | :-------------------- |
@@ -32,7 +30,7 @@ This short program consists of three colloquium talks on major aspects of formal
 | 15:30-16:30 | coffee                    | coffee                     | coffee                |
 | 16:30-18:00 | session 1: basics         | session 4: numbers         | session 7: analysis   |
 
-::: details Session topics
+::: details Session topics (tap to view)
 
   |     | session             | topics                                                                       |
   | --- | ------------------- | ---------------------------------------------------------------------------- |
@@ -46,7 +44,7 @@ This short program consists of three colloquium talks on major aspects of formal
 
 ::: 
 
-## Speakers / Scientific organizers
+## Speakers / Scientific organizers {#speakers}
 
 These are the ones who actually organised the event and made it happen.
 
@@ -63,14 +61,16 @@ These are the ones to contact for anything practical.
 - Marco Lenci
 - Yoh Tanimoto
 
-## Register
+## Register {#register}
 
-## Other events of interest
+In case you are interested, please register, it helps us a lot with the organization!
+
+<!-- ## Other events of interest -->
 
 ## Location
 
 All activities will be held in the Mathematics department, University of Rome Tor Vergata.
 
-## Support
+### Support
 
-We are grateful for the support of the mathematics department, University of Rome Tor Vergata.  This program is funded as part of the MIUR Excellence Department Project MatMod@TOV awarded to the Department of Mathematics, University of Rome Tor Vergata.
+This program is funded as part of the MIUR Excellence Department Project MatMod@TOV awarded to the Department of Mathematics, University of Rome Tor Vergata.

@@ -17,9 +17,12 @@ hero:
 features:
   - title: Colloquium talks
     details: Three talks on on major aspects of formalization, in terms of both underlying ideas and concrete implementations.
+    link: /info#speakers
   - title: Workshop sessions
     details: A series of hands-on sessions intended to give participants first-hand knowledge using the Lean language and associated tools.
+    link: /info#schedule
   - title: Audience
     details: We hope this will provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
+    link: /info#summary
 ---
 
