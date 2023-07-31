@@ -7,7 +7,7 @@ export default defineConfig({
   cleanUrls: true,
   assetsDir: 'static',
   title: "Formalisation in Rome",
-  description: "A mini event for the formalisation of mathematics in Lean, Rome 2024.",
+  description: "A mini event for the formalisation of mathematics in Lean, Rome January 2024.",
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

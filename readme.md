@@ -2,7 +2,7 @@
 
 ## Website
 
-The site uses [vitepress](https://vitepress.dev) to generate everything from content written in markdown. 
+The site uses [vitepress](https://vitepress.dev) to generate everything from content written in markdown. Site is available at [https://www.mat.uniroma2.it/butterley/formalisation/].
 
 ### Local editing
 
