@@ -1,0 +1,52 @@
+# Workflow for building and deploying the VitePress site to server
+#
+name: Deploy VitePress site to server
+
+on:
+  # Runs on pushes targeting the `main` branch. Change this to `master` if you're
+  # using the `master` branch as the default branch.
+  push:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm # 
+      - name: Install dependencies
+        run: npm ci # 
+      - name: Build with VitePress
+        run: npm run site:build # 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: site/.vitepress/dist
+      - name: Deploy to server over ssh
+        # Use rsync over ssh to upload to server
+        uses: easingthemes/ssh-deploy@v4
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }} 
+          ARGS: "-rlgoDzvc -i" # default "-rlgoDzvc -i"
+          SOURCE: "site/.vitepress/dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }} # "www.mat.uniroma2.it"
+          REMOTE_USER: ${{ secrets.REMOTE_USER }} # "butterle"
+          TARGET: ${{ secrets.REMOTE_TARGET }}  # "~/public_html/formalisation/"
+          EXCLUDE: ""
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            whoami
+            ls -al
+            echo $RSYNC_STDOUT
