@@ -11,11 +11,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-env:
-  SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
-  REMOTE_HOST: ${{ vars.REMOTE_HOST }} # "www.mat.uniroma2.it"
-  REMOTE_USER: ${{ vars.REMOTE_USER }} # "butterle"
-  REMOTE_TARGET: ${{ vars.REMOTE_TARGET }} # "~/public_html/formalisation/"
+  # ${{ secrets.SERVER_SSH_KEY }}
+  # ${{ vars.REMOTE_HOST }} # "www.mat.uniroma2.it"
+  # ${{ vars.REMOTE_USER }} # "butterle"
+  # ${{ vars.REMOTE_TARGET }} # "~/public_html/formalisation/"
 
 jobs:
   deploy:
@@ -23,31 +22,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Not needed if lastUpdated is not enabled
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm # 
+          cache: npm  
       - name: Install dependencies
-        run: npm ci # 
+        run: npm ci 
       - name: Build with VitePress
-        run: npm run site:build # 
+        run: npm run site:build 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
-          path: site/.vitepress/dist
+          name: site-artifact
+          path: site/.vitepress/dist/
       - name: Deploy to server over ssh
-        # Use rsync over ssh to upload to server
         uses: easingthemes/ssh-deploy@v4
         env:
-          SSH_PRIVATE_KEY: $SERVER_SSH_KEY 
-          ARGS: "-rlgoDzvc -i" # default "-rlgoDzvc -i"
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }} 
+          ARGS: "-rlgoDzvc -i" 
           SOURCE: "site/.vitepress/dist/"
-          REMOTE_HOST: $REMOTE_HOST 
-          REMOTE_USER: $REMOTE_USER 
-          TARGET: $REMOTE_TARGET 
+          REMOTE_HOST: ${{ vars.REMOTE_HOST }} 
+          REMOTE_USER: ${{ vars.REMOTE_USER }} 
+          TARGET: ${{ vars.REMOTE_TARGET }}
           EXCLUDE: ""
           SCRIPT_BEFORE: |
             whoami
