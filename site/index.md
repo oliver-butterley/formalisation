@@ -11,7 +11,7 @@ hero:
 #    alt: unsound
   actions:
     - theme: brand
-      text: Find out more
+      text: See speakers and schedule
       link: /info
 
 features:
