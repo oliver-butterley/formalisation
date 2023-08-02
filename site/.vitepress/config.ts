@@ -24,12 +24,12 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/oliver-butterley/formalisation' }
     ],
 
-    footer: {
-      message: 'Department of Mathematics, University of Rome Tor Vergata.',
+    // footer: {
+      // message: 'Department of Mathematics, University of Rome Tor Vergata.',
       // copyright: 'Copyright © 2019-present Someone'
-    },
+    // },
 
-    externalLinkIcon: true,
+    externalLinkIcon: false,
 
   }
 })

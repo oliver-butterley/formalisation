@@ -1,8 +1,5 @@
 {
-    "cSpell.words": [
-        "Lenci",
-        "MIUR",
-        "Tanimoto",
-        "Vergata"
-    ]
+  "cSpell.words": ["Lenci", "MIUR", "Tanimoto", "Vergata"],
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnSave": true
 }

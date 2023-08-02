@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Formalisation in Rome"
-  text: "25-27 January 2024"
-  tagline: Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.    
-#  image:
-#    src: /unsound.png
-#    alt: unsound
+  text: "24-26 January 2024"
+  tagline: Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.
+  #  image:
+  #    src: /unsound.png
+  #    alt: unsound
   actions:
     - theme: brand
-      text: See speakers and schedule
+      text: See speakers, schedule and further information
       link: /info
 
 features:
@@ -22,7 +22,6 @@ features:
     details: A series of hands-on sessions intended to give participants first-hand knowledge using the Lean language and associated tools.
     link: /info#schedule
   - title: Audience
-    details: We hope this will provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
+    details: We aim to provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
     link: /info#summary
 ---
-
