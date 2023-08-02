@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Formalisation in Rome"
-  text: "24-26 January 2024"
+  name: "24-26 January 2024"
+  text: "Computer-assisted proofs and verification: 48 hours in Rome"
   tagline: Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.
   image:
     src: /robots.jpeg

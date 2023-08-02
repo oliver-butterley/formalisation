@@ -11,7 +11,7 @@ Over the last several years computerized tools for verifying and manipulating pr
 This short program consists of three colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
 We hope this will provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
 
-- Duration: 3 days
+- Duration: core of the event is actually 49 hours from the colloquium on Wednesday to the colloquium on Friday. Pre-workshop before that and post-workshop after.
 - Day 1: Intro to Lean; Day 2: Numbers, sets and functions; Day 3: Algebra, topology and analysis.
 - 3 colloquium talks, one each day
 - Workshop during the remaining time
