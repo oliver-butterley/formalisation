@@ -6,9 +6,10 @@ hero:
   name: "Formalisation in Rome"
   text: "24-26 January 2024"
   tagline: Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.
-  #  image:
-  #    src: /unsound.png
-  #    alt: unsound
+  image:
+    src: /robots.jpeg
+    alt: Several robots discussing mathematics at the board
+    style: "border-radius: 10%;"
   actions:
     - theme: brand
       text: See speakers, schedule and further information
