@@ -17,8 +17,11 @@ hero:
       text: See speakers and schedule
       link: /info
     - theme: alt
-      text: See practical information
-      link: /practical
+      text: Practical info
+      link: /practical    
+    - theme: alt
+      text: The team
+      link: /team
 
 features:
   - title: Colloquium talks
