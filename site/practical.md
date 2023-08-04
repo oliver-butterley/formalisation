@@ -28,4 +28,4 @@ Contact one of the [local organizers](/team) for anything practical.
 
 For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
 
-![Robots enjoy pizza too](images/pizza.jpeg)
+<!-- ![Robots enjoy pizza too](images/pizza.jpeg) -->
