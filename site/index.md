@@ -3,26 +3,34 @@
 layout: home
 
 hero:
-  name: "24-26 January 2024"
-  text: "Computer-assisted proofs and verification: 48 hours in Rome"
-  tagline: Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.
+  name: "Computer-verified proofs: 48 hours in Rome"
+  text: "24-26 January 2024"
+  tagline: 
+    "A short program consisting of colloquium talks and workshop sessions focussed on Lean 4 and its mathematical library (arguably the leading option at the moment).
+    We will explore diverse aspects of computer-verified proofs and digital mathematical libraries."
   image:
-    src: /robots.jpeg
-    alt: Several robots discussing mathematics at the board
+    src: robots.jpeg
+    alt: Several robots discussing mathematics at the black board
     style: "border-radius: 10%;"
   actions:
     - theme: brand
-      text: See speakers, schedule and further information
+      text: See speakers and schedule
       link: /info
+    - theme: alt
+      text: See practical information
+      link: /practical
 
 features:
   - title: Colloquium talks
-    details: Three talks on on major aspects of formalization, in terms of both underlying ideas and concrete implementations.
-    link: /info#speakers
+    details: 
+      Three talks on major topics related to formalization, computer-verified proofs and digital mathematical libraries. This includes the underlying ideas, concrete implementations and recent successes.
+    link: /info#colloquium
   - title: Workshop sessions
-    details: A series of hands-on sessions intended to give participants first-hand knowledge using the Lean language and associated tools.
-    link: /info#schedule
+    details: 
+      A series of hands-on sessions which will give participants first-hand knowledge using the Lean 4, its mathematical library and associated tools.
+    link: /info#workshop
   - title: Audience
-    details: We aim to provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
+    details: 
+      The event is accessible to mathematicians of all stages, anyone who is curious to start or continue exploring the field of computer-verified proofs, particularly with Lean.
     link: /info#summary
 ---

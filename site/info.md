@@ -4,35 +4,35 @@ editLink: true
 layout: doc
 ---
 
-# Summary {#summary}
-
-Over the last several years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs have the potential to play a meaningful role in mathematical innovation and teaching well beyond their traditional role in the foundations of mathematics.
-
-This short program consists of three colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
-We hope this will provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
-
-- Duration: core of the event is actually 49 hours from the colloquium on Wednesday to the colloquium on Friday. Pre-workshop before that and post-workshop after.
-- Day 1: Intro to Lean; Day 2: Numbers, sets and functions; Day 3: Algebra, topology and analysis.
-- 3 colloquium talks, one each day
-- Workshop during the remaining time
-
-Copious quantities of coffee ☕ and space to code 💻 will be available.
-The short workshop is designed to give participants sufficient knowledge and support so that after the event they can then continue making progress with it in their own time.
 
 ::: warning
 Everything is very preliminary
 :::
 
-# Schedule {#schedule}
+## Summary {#summary}
+
+In recent years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs are playing a meaningful role in mathematical innovation and teaching.
+
+This short program consists of three colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
+We aim to provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
+
+The core of the event is 48 hours from the colloquium on Wednesday to the colloquium on Friday. Pre-workshop before that and post-workshop after. During the pre-workshop there will be support for anyone who wants to get started installing Lean 4, get hold of the resources for the workshop and start using it. 
+
+Copious quantities of coffee ☕ and space to code and collaborate will be available.
+The workshop is designed to give participants sufficient knowledge and support so that after the event they can then continue making progress with it in their own time.
+
+
+## Schedule {#schedule}
 
 |             | Wed 24/01/2024   | Thu 25/01/2024   | Fri 26/01/2024    |
 | :---------: | :--------------- | :--------------- | :---------------- |
-| 10:00-11:30 |                  | workshop         | workshop          |
-| 11:30-13:00 | _(pre-workshop)_ | workshop         | workshop          |
-| 13:00-14:30 | 🍽️               | 🍽️               | 🍽️                |
-| 14:30-15:30 | **Colloquium 1** | **Colloquium 2** | **Colloquium 3**  |
-| 15:30-16:00 | ☕               | ☕               | ☕                |
-| 16:00-17:30 | workshop         | workshop         | _(post-workshop)_ |
+| 10:00-11:00 |                  | workshop         | workshop          |
+| 11:00-12:00 |                  | ☕                | ☕                 |
+| 12:00-13:00 | _(pre-workshop)_ | workshop         | workshop          |
+| 13:00-14:30 | 🍽️                | 🍽️                | 🍽️                 |
+| 14:30-15:30 | _(pre-workshop)_ | **Colloquium 2** | **Colloquium 3**  |
+| 15:30-16:30 | **Colloquium 1** | ☕                | ☕                 |
+| 16:30-17:30 | ☕ 🍷              | workshop         | _(post-workshop)_ |
 
 ::: details Session topics (tap to view)
 
@@ -48,38 +48,41 @@ Everything is very preliminary
 
 :::
 
-## Speakers / Scientific organizers {#speakers}
+<!-- ## Speakers / Scientific organizers {#speakers}
 
 These are the ones who actually organised the event and made it happen.
 
 - Speaker A
 - Speaker B
-- Speaker C
-
-## Local organizers
-
-These are the ones to contact for anything practical.
-
+- Speaker C -->
+<!-- 
+## Local organizers  
 - Oliver Butterley
 - Rafael Greenblatt
 - Marco Lenci
-- Yoh Tanimoto
+- Yoh Tanimoto -->
+
+## Colloquium talks {#colloquium}
+
+Details to be added...
+
+
+## Workshop sessions {#workshop}
+
+Details to be added...
+
 
 ## Register {#register}
 
-In case you are interested, please register, it helps us a lot with the organization!
+In case you are interested, please register, it helps us a lot with the organization! (And it's fine if you change your mind later.)
 
-## Other events of interest
+<iframe width="640px" height="480px" src="https://forms.office.com/e/6ypp7fTrK2?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
-For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
+## Contact
 
-## Location
+Contact one of the [local organizers](/team) for anything practical.
 
-All activities will be held in the Mathematics department, University of Rome Tor Vergata.
-
-## Getting started with Lean
-
-If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
+![Discussing maths together](images/discuss.jpeg)
 
 ### Support
 
