@@ -11,7 +11,7 @@ export default defineConfig({
     "A mini event concerning the formalisation of mathematics in Lean, Rome 24-26 January 2024.",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'shortcut icon', href: '/icon.png' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.png', type: 'image/png' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
