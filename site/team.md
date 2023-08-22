@@ -54,12 +54,12 @@ const teamMembers: TeamMember[] = [
     description: "Local organizer",
     link: "https://www.unibo.it/sitoweb/marco.lenci/"
   },
-  // {
-  //   name: "Gihan Marasingha",
-  //   github: "gihanmarasingha",
-  //   description: "Speaker",
-  //   link: ""
-  // },
+  {
+    name: "Gihan Marasingha",
+    github: "gihanmarasingha",
+    description: "Speaker",
+    link: ""
+  },
   {
     name: "Yoh Tanimoto",
     github: "yoh-tanimoto",
