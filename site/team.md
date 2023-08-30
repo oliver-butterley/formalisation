@@ -30,12 +30,12 @@ const teamMembers: TeamMember[] = [
     description: "Local organizer - contact for practical stuff",
     link: "https://www.mat.uniroma2.it/butterley/"
   },
-  // {
-  //   name: "Kevin Buzzard",
-  //   github: "kbuzzard",
-  //   description: "Speaker",
-  //   link: "http://wwwf.imperial.ac.uk/~buzzard/"
-  // },
+  {
+    name: "Kevin Buzzard",
+    github: "kbuzzard",
+    description: "Speaker",
+    link: "http://wwwf.imperial.ac.uk/~buzzard/"
+  },
   {
     name: "Floris van Doorn",
     github: "fpvandoorn",
@@ -57,8 +57,8 @@ const teamMembers: TeamMember[] = [
   {
     name: "Gihan Marasingha",
     github: "gihanmarasingha",
-    description: "Speaker",
-    link: ""
+    description: "Speaker and scientific organizer",
+    link: "https://mathematics.exeter.ac.uk/staff/gm299?sm=gm299"
   },
   {
     name: "Yoh Tanimoto",
