@@ -28,11 +28,11 @@ The workshop is designed to give participants sufficient knowledge and support s
 | :---------: | :--------------- | :--------------- | :---------------- |
 | 10:00-11:00 |                  | workshop         | workshop          |
 | 11:00-12:00 |                  | ☕ 💻              | ☕ 💻               |
-| 12:00-13:00 | _(pre-workshop)_ | workshop         | workshop          |
-| 13:00-14:30 | 🍽️                | 🍽️                | 🍽️                 |
-| 14:30-15:30 | _(pre-workshop)_ | **Colloquium 2** | **Colloquium 3**  |
+| 12:00-13:00 | workshop         | workshop         | workshop          |
+| 13:00-14:30 | 🍽️               | 🍽️               | 🍽️                |
+| 14:30-15:30 | workshop         | **Colloquium 2** | **Colloquium 3**  |
 | 15:30-16:30 | **Colloquium 1** | ☕ 💻              | ☕ 💻               |
-| 16:30-17:30 | ☕ 🍷              | workshop         | _(post-workshop)_ |
+| 16:30-17:30 | ☕ 🍷              | workshop         | workshop          |
 
 ::: details Preliminary session topics (tap to view)
 
