@@ -16,7 +16,7 @@ In recent years computerized tools for verifying and manipulating proofs have be
 This short program consists of three colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
 We aim to provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
 
-The core of the event is 48 hours from the colloquium on Wednesday to the colloquium on Friday. Pre-workshop before that and post-workshop after. During the pre-workshop there will be support for anyone who wants to get started installing Lean 4, get hold of the resources for the workshop and start using it. 
+The core of the event is 48 hours from the colloquium on Wednesday to the colloquium on Friday. Pre-workshop before that and post-workshop after. During the pre-workshop there will be support for anyone who wants to get started installing Lean 4, get hold of the resources for the workshop and start using it.
 
 Copious quantities of coffee ☕ and space to code and collaborate will be available.
 The workshop is designed to give participants sufficient knowledge and support so that after the event they can then continue making progress with it in their own time.
@@ -34,17 +34,18 @@ The workshop is designed to give participants sufficient knowledge and support s
 | 15:30-16:30 | **Colloquium 1** | ☕ 💻              | ☕ 💻               |
 | 16:30-17:30 | ☕ 🍷              | workshop         | _(post-workshop)_ |
 
-::: details Session topics (tap to view)
+::: details Preliminary session topics (tap to view)
 
 |     | session             | topics                                                                       |
 | --- | ------------------- | ---------------------------------------------------------------------------- |
-| 0   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib        |
-| 2   | **logic**           | how to deal with all logical connectives and quantifiers                     |
-| 3   | **sets, functions** | intersections, (pre)images, extensionality                                   |
-| 4   | **numbers**         | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics |
-| 5   | **algebra**         | groups, rings, fields, linear algebra                                        |
-| 6   | **topology**        | topological spaces, filters                                                  |
-| 7   | **analysis**        | differentiation, integration, (manifolds?)                                   |
+| 1   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib        |
+| 2   | **basics**          | apply, rewrite, linarith                                                     |
+| 3&4 | **logic**           | how to deal with all logical connectives and quantifiers                     |
+| 5   | **sets, functions** | intersections, (pre)images, extensionality                                   |
+<!-- | 5   | **numbers**         | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
+<!-- | 6   | **algebra**         | groups, rings, fields, linear algebra                                        | -->
+| 6&7 | **topology**        | topological spaces, filters                                                  |
+| 8   | **analysis**        | differentiation, integration,                                                |
 
 :::
 
@@ -55,8 +56,8 @@ These are the ones who actually organised the event and made it happen.
 - Speaker A
 - Speaker B
 - Speaker C -->
-<!-- 
-## Local organizers  
+<!--
+## Local organizers
 - Oliver Butterley
 - Rafael Greenblatt
 - Marco Lenci
