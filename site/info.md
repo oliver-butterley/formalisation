@@ -42,10 +42,10 @@ The workshop is designed to give participants sufficient knowledge and support s
 | 2   | **basics**          | apply, rewrite, linarith                                                     |
 | 3&4 | **logic**           | how to deal with all logical connectives and quantifiers                     |
 | 5   | **sets, functions** | intersections, (pre)images, extensionality                                   |
-<!-- | 5   | **numbers**         | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
-<!-- | 6   | **algebra**         | groups, rings, fields, linear algebra                                        | -->
 | 6&7 | **topology**        | topological spaces, filters                                                  |
 | 8   | **analysis**        | differentiation, integration,                                                |
+<!-- | 5   | **numbers**         | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
+<!-- | 6   | **algebra**         | groups, rings, fields, linear algebra                                        | -->
 
 :::
 
