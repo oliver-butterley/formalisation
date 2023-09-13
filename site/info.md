@@ -36,14 +36,14 @@ The workshop is designed to give participants sufficient knowledge and support s
 
 ::: details Preliminary session topics (tap to view)
 
-|     | session             | topics                                                                       |
-| --- | ------------------- | ---------------------------------------------------------------------------- |
-| 1   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib        |
-| 2   | **basics**          | apply, rewrite, linarith                                                     |
-| 3&4 | **logic**           | how to deal with all logical connectives and quantifiers                     |
-| 5   | **sets, functions** | intersections, (pre)images, extensionality                                   |
-| 6&7 | **topology**        | topological spaces, filters                                                  |
-| 8   | **analysis**        | differentiation, integration,                                                |
+|     | session             | topics (and chapter number of Mathematics in Lean)                             |
+| --- | ------------------- | ------------------------------------------------------------------------------ |
+| 1   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1&2) |
+| 2   | **basics**          | apply, rewrite, linarith (ch 2)                                                |
+| 3&4 | **logic**           | how to deal with all logical connectives and quantifiers (ch 3)                |
+| 5   | **sets, functions** | intersections, (pre)images, extensionality (ch 4)                              |
+| 6&7 | **topology**        | topological spaces, filters (ch 8)                                             |
+| 8   | **analysis**        | differentiation, integration (ch 9&10)                                         |
 <!-- | 5   | **numbers**         | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
 <!-- | 6   | **algebra**         | groups, rings, fields, linear algebra                                        | -->
 
