@@ -5,8 +5,8 @@ layout: home
 hero:
   name: "Computer-verified proofs: 48 hours in Rome"
   text: "24-26 January 2024"
-  tagline: 
-    "A short program consisting of colloquium talks and workshop sessions focussed on Lean 4 and its mathematical library (arguably the leading option at the moment).
+  tagline:
+    "A short program consisting of colloquium talks and workshop sessions focussed on Lean 4 and its mathematical library.
     We will explore diverse aspects of computer-verified proofs and digital mathematical libraries."
   image:
     src: robots.jpeg
@@ -14,26 +14,23 @@ hero:
     style: "border-radius: 10%;"
   actions:
     - theme: brand
-      text: See speakers and schedule
-      link: /info
+      text: Speakers and schedule
+      link: /info#schedule
     - theme: alt
-      text: Practical info
-      link: /practical    
+      text: Register
+      link: /info#register
     - theme: alt
-      text: The team
+      text: Event team
       link: /team
 
 features:
   - title: Colloquium talks
-    details: 
-      Three talks on major topics related to formalization, computer-verified proofs and digital mathematical libraries. This includes the underlying ideas, concrete implementations and recent successes.
-    link: /info#colloquium
+    details: Three talks on major topics related to formalization, computer-verified proofs and digital mathematical libraries. This includes the underlying ideas, concrete implementations and recent successes.
+    link: /info#schedule
   - title: Workshop sessions
-    details: 
-      A series of hands-on sessions which will give participants first-hand knowledge using the Lean 4, its mathematical library and associated tools.
-    link: /info#workshop
+    details: A series of hands-on sessions which will give participants first-hand knowledge using the Lean 4, its mathematical library and associated tools.
+    link: /info#schedule
   - title: Audience
-    details: 
-      The event is accessible to mathematicians of all stages, anyone who is curious to start or continue exploring the field of computer-verified proofs, particularly with Lean.
+    details: The event is accessible to mathematicians of all stages, anyone who is curious to start or continue exploring the field of computer-verified proofs, particularly with Lean.
     link: /info#summary
 ---
