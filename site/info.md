@@ -4,11 +4,6 @@ editLink: true
 layout: doc
 ---
 
-
-::: warning
-Everything is very preliminary
-:::
-
 ## Summary {#summary}
 
 In recent years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs are playing a meaningful role in mathematical innovation and teaching.
@@ -16,27 +11,23 @@ In recent years computerized tools for verifying and manipulating proofs have be
 This short program consists of three colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
 We aim to provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
 
-The core of the event is 48 hours from the colloquium on Wednesday to the colloquium on Friday. Pre-workshop before that and post-workshop after. During the pre-workshop there will be support for anyone who wants to get started installing Lean 4, get hold of the resources for the workshop and start using it.
-
 Copious quantities of coffee ☕ and space to code and collaborate will be available.
-The workshop is designed to give participants sufficient knowledge and support so that after the event they can then continue making progress with it in their own time.
 
+## Schedule & speakers {#schedule}
 
-## Schedule {#schedule}
+|             | Wed 24/01/2024   | Thu 25/01/2024   | Fri 26/01/2024   |
+| :---------: | :--------------- | :--------------- | :--------------- |
+| 10:00-11:00 |                  | workshop         | workshop         |
+| 11:00-12:00 |                  | ☕ 💻            | ☕ 💻            |
+| 12:00-13:00 | workshop         | workshop         | workshop         |
+| 13:00-14:30 | 🍽️               | 🍽️               | 🍽️               |
+| 14:30-15:30 | workshop         | **Colloquium 2** | **Colloquium 3** |
+| 15:30-16:30 | **Colloquium 1** | ☕ 💻            | ☕ 💻            |
+| 16:30-17:30 | ☕ 🍷            | workshop         | workshop         |
 
-|             | Wed 24/01/2024   | Thu 25/01/2024   | Fri 26/01/2024    |
-| :---------: | :--------------- | :--------------- | :---------------- |
-| 10:00-11:00 |                  | workshop         | workshop          |
-| 11:00-12:00 |                  | ☕ 💻              | ☕ 💻               |
-| 12:00-13:00 | workshop         | workshop         | workshop          |
-| 13:00-14:30 | 🍽️               | 🍽️               | 🍽️                |
-| 14:30-15:30 | workshop         | **Colloquium 2** | **Colloquium 3**  |
-| 15:30-16:30 | **Colloquium 1** | ☕ 💻              | ☕ 💻               |
-| 16:30-17:30 | ☕ 🍷              | workshop         | workshop          |
+::: details Session topics (tap to view)
 
-::: details Preliminary session topics (tap to view)
-
-|     | session             | topics (and chapter number of Mathematics in Lean)                             |
+|     | session             | topics                                                                         |
 | --- | ------------------- | ------------------------------------------------------------------------------ |
 | 1   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1&2) |
 | 2   | **basics**          | apply, rewrite, linarith (ch 2)                                                |
@@ -44,34 +35,26 @@ The workshop is designed to give participants sufficient knowledge and support s
 | 5   | **sets, functions** | intersections, (pre)images, extensionality (ch 4)                              |
 | 6&7 | **topology**        | topological spaces, filters (ch 8)                                             |
 | 8   | **analysis**        | differentiation, integration (ch 9&10)                                         |
-<!-- | 5   | **numbers**         | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
-<!-- | 6   | **algebra**         | groups, rings, fields, linear algebra                                        | -->
 
+Chapter numbers listed are from [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
 :::
 
-<!-- ## Speakers / Scientific organizers {#speakers}
+<!-- | 5                   | **numbers**                                                                    | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
+<!-- | 6                   | **algebra**                                                                    | groups, rings, fields, linear algebra                                        | -->
 
-These are the ones who actually organised the event and made it happen.
+### Speakers {#speakers}
 
-- Speaker A
-- Speaker B
-- Speaker C -->
-<!--
-## Local organizers
-- Oliver Butterley
-- Rafael Greenblatt
-- Marco Lenci
-- Yoh Tanimoto -->
+- Riccardo Brasca
+- Kevin Buzzard
+- Floris van Doorn
+- Gihan Marasingha
+- Filippo A. E. Nuccio Mortarino Majno di Capriglio
 
-## Colloquium talks {#colloquium}
+See also the [event team page](/team).
 
-Details to be added...
+### Colloquium talks {#colloquium}
 
-
-## Workshop sessions {#workshop}
-
-Details to be added...
-
+Titles TBA...
 
 ## Register {#register}
 
@@ -83,8 +66,9 @@ In case you are interested, please register, it helps us a lot with the organiza
 
 Contact one of the [local organizers](/team) for anything practical.
 
-![Discussing maths together](images/discuss.jpeg)
+## Links
 
-### Support
-
-This program is funded as part of the MIUR Excellence Department Project MatMod@TOV awarded to the Department of Mathematics, University of Rome Tor Vergata.
+- Getting started with Lean:
+  If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
+- Other events of interests:
+  For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).

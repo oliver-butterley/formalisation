@@ -8,7 +8,7 @@ export default defineConfig({
   assetsDir: "static",
   title: "Computer-verified proofs: 48 hours in Rome",
   description:
-    "A mini event concerning the formalisation of mathematics in Lean, Rome 24-26 January 2024.",
+    "A mini event concerning computer verified mathematics in Lean, Rome 24-26 January 2024.",
   lastUpdated: true,
   head: [
     ['link', { rel: 'shortcut icon', href: 'favicon.png', type: 'image/png' }],
@@ -24,7 +24,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Info", link: "/info" },
       { text: "Team", link: "/team" },
-      { text: "Practicalities", link: "/practical" },
+      // { text: "Practicalities", link: "/practical" },
     ],
     socialLinks: [
       {
@@ -34,7 +34,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Department of Mathematics, University of Rome Tor Vergata.',
-      // copyright: ''
+      copyright: 'Supported by MIUR Excellence Department Project MatMod@TOV'
     },
     externalLinkIcon: false,
   },
