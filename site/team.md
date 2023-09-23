@@ -47,7 +47,7 @@ const teamMembers: TeamMember[] = [
     name: "Floris van Doorn",
     github: "fpvandoorn",
     description: "Speaker and scientific organizer",
-    link: "https://github.com/fpvandoorn"
+    link: "https://florisvandoorn.com/"
   },
   {
     name: "Rafael Greenblatt",
