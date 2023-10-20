@@ -44,11 +44,11 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 ### Speakers {#speakers}
 
-- Riccardo Brasca
-- Kevin Buzzard
-- Floris van Doorn
-- Gihan Marasingha
-- Filippo A. E. Nuccio Mortarino Majno di Capriglio
+- [Riccardo Brasca](https://webusers.imj-prg.fr/~riccardo.brasca/)
+- [Kevin Buzzard](https://wwwf.imperial.ac.uk/~buzzard/)
+- [Floris van Doorn](https://florisvandoorn.com/)
+- [Gihan Marasingha](https://mathematics.exeter.ac.uk/staff/gm299?sm=gm299)
+- [Filippo A. E. Nuccio Mortarino Majno di Capriglio](https://perso.univ-st-etienne.fr/nf51454h/)
 
 See also the [event team page](/team).
 
@@ -58,9 +58,7 @@ Titles TBA...
 
 ## Register {#register}
 
-In case you are interested, please register, it helps us a lot with the organization! (And it's fine if you change your mind later.)
-
-<iframe width="640px" height="480px" src="https://forms.office.com/e/6ypp7fTrK2?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+In case you are interested, [please register](https://forms.gle/ePWKBwz5y7qMXt2GA), it helps us a lot with the organization! (And it's fine if you change your mind later.)
 
 ## Contact
 
