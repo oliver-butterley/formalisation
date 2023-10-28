@@ -9,6 +9,7 @@ import {
   VPTeamMembers,
   VPTeamPageSection
 } from 'vitepress/theme'
+import { ref } from 'vue'
 
 interface TeamMember {
   avatar: string;
@@ -94,8 +95,10 @@ const teamMembers: TeamMember[] = team.map((el) => {
   };
 })
 
+const randomTeamMembers = ref(random(teamMembers))
+ 
 /*
-* Randomly arrange the provided array
+* Randomly order the array
 */
 function random<Type>(array: Type[]) {
   return array.map(el => ({ el, sort: Math.random() }))
@@ -109,5 +112,5 @@ function random<Type>(array: Type[]) {
   <VPTeamPageTitle>
     <template #title>Event Team</template>
   </VPTeamPageTitle>
-  <VPTeamMembers size="small" :members="random(teamMembers)" />
+  <VPTeamMembers size="small" :members="randomTeamMembers" />
 </VPTeamPage>
