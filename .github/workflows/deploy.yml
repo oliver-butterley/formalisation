@@ -15,11 +15,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm  
+          cache: npm
       - name: Install dependencies
-        run: npm ci 
+        run: npm ci
       - name: Build with VitePress
-        run: npm run site:build 
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
@@ -28,10 +28,10 @@ jobs:
       - name: Deploy to server over ssh
         uses: easingthemes/ssh-deploy@v4
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }} 
-          ARGS: "-rlgoDzvc -i" 
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rlgoDzvc -i"
           SOURCE: "site/.vitepress/dist/"
-          REMOTE_HOST: ${{ vars.REMOTE_HOST }} 
-          REMOTE_USER: ${{ vars.REMOTE_USER }} 
+          REMOTE_HOST: ${{ vars.REMOTE_HOST }}
+          REMOTE_USER: ${{ vars.REMOTE_USER }}
           TARGET: ${{ vars.REMOTE_TARGET }}
           EXCLUDE: ""
