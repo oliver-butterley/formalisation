@@ -6,6 +6,7 @@ import { ref } from "vue";
 import { useIdle, useIntervalFn } from "@vueuse/core";
 import { type TeamMember } from "./team.data";
 import { random } from "./random";
+import TeamMembers from "./TeamMembers.vue";
 
 function randomize() {
   if (idle.value) {
@@ -22,7 +23,6 @@ const props = defineProps<{
 
 const team = ref(random(props.team));
 const { idle, lastActive } = useIdle(100); // 1/10 sec
-// const interval = 1000; // 1 min
 if (props.interval) {
   const { pause, resume, isActive } = useIntervalFn(
     randomize,
@@ -36,6 +36,6 @@ if (props.interval) {
     <VPTeamPageTitle>
       <template #title>Event Team</template>
     </VPTeamPageTitle>
-    <VPTeamMembers size="small" :members="team" />
+    <TeamMembers size="small" :members="team" />
   </VPTeamPage>
 </template>
