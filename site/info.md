@@ -44,11 +44,34 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 ### Speakers {#speakers}
 
-- [Riccardo Brasca](https://webusers.imj-prg.fr/~riccardo.brasca/)
-- [Kevin Buzzard](https://wwwf.imperial.ac.uk/~buzzard/)
-- [Floris van Doorn](https://florisvandoorn.com/)
-- [Gihan Marasingha](https://mathematics.exeter.ac.uk/staff/gm299?sm=gm299)
-- [Filippo A. E. Nuccio Mortarino Majno di Capriglio](https://perso.univ-st-etienne.fr/nf51454h/)
+<script setup>
+  import RandomList from './helpers/RandomList.vue'
+
+  const items = [
+    {
+      text: "Riccardo Brasca",
+      link: "https://webusers.imj-prg.fr/~riccardo.brasca/",
+    },
+    {
+      text: "Kevin Buzzard",
+      link: "https://wwwf.imperial.ac.uk/~buzzard/",
+    },
+    {
+      text: "Floris van Doorn",
+      link: "https://florisvandoorn.com/",
+    },
+    {
+      text: "Gihan Marasingha",
+      link: "https://mathematics.exeter.ac.uk/staff/gm299?sm=gm299",
+    },
+    {
+      text: "Filippo A. E. Nuccio Mortarino Majno di Capriglio",
+      link: "https://perso.univ-st-etienne.fr/nf51454h/",
+    },
+  ];
+</script>
+
+<RandomList :items="items" :interval="120"/>
 
 See also the [event team page](/team).
 
