@@ -30,7 +30,7 @@ Copious quantities of coffee ☕ and space to code and collaborate will be avail
 |     | session             | topics                                                                         |
 | --- | ------------------- | ------------------------------------------------------------------------------ |
 | 1   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1&2) |
-| 2   | **basics**          | apply, rewrite, linarith (ch 2)                                                |
+| 2   | **basics**          | `apply`, `rewrite`, `linarith` (ch 2)                                          |
 | 3&4 | **logic**           | how to deal with all logical connectives and quantifiers (ch 3)                |
 | 5   | **sets, functions** | intersections, (pre)images, extensionality (ch 4)                              |
 | 6&7 | **topology**        | topological spaces, filters (ch 8)                                             |
@@ -39,8 +39,8 @@ Copious quantities of coffee ☕ and space to code and collaborate will be avail
 Chapter numbers listed are from [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
 :::
 
-<!-- | 5                   | **numbers**                                                                    | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
-<!-- | 6                   | **algebra**                                                                    | groups, rings, fields, linear algebra                                        | -->
+<!-- | 5                   | **numbers**     | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
+<!-- | 6                   | **algebra**     | groups, rings, fields, linear algebra                                        | -->
 
 ### Speakers {#speakers}
 
