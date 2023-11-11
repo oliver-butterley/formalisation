@@ -81,7 +81,7 @@ Titles TBA...
 
 ## Register {#register}
 
-In case you are interested, [please register](https://forms.gle/ePWKBwz5y7qMXt2GA), it helps us a lot with the organization! (And it's fine if you change your mind later.)
+In case you are interested, [please register, sooner rather that later](https://forms.gle/ePWKBwz5y7qMXt2GA), it helps us a lot with the organization! (And it's fine if you change your mind.)
 
 ## Contact
 
