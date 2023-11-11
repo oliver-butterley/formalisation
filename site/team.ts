@@ -15,7 +15,7 @@ export const team = [
     name: "Kevin Buzzard",
     github: "kbuzzard",
     description: "Speaker",
-    link: "http://wwwf.imperial.ac.uk/~buzzard/",
+    link: "https://wwwf.imperial.ac.uk/~buzzard/",
   },
   {
     name: "Floris van Doorn",
