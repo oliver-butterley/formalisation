@@ -13,6 +13,8 @@ We aim to provide an introduction to the area for working mathematicians and adv
 
 Copious quantities of coffee ☕ and space to code and collaborate will be available.
 
+Workshop and talks will be held in the Department of Mathematics, University of Rome Tor Vergata ([Via della Ricerca Scientifica 1, 00133 Roma](https://osm.org/go/xcXqPCo1?m=)).
+
 ## Schedule & speakers {#schedule}
 
 |             | Wed 24/01/2024   | Thu 25/01/2024   | Fri 26/01/2024   |
@@ -44,10 +46,33 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 ### Speakers {#speakers}
 
+<RandomList :items="speakers" :interval="120"/>
+
+See also the [event team page](/team).
+
+### Colloquium talks {#colloquium}
+
+Titles TBA...
+
+## Register {#register}
+
+In case you are interested, [please register](https://forms.gle/ePWKBwz5y7qMXt2GA), sooner rather that later, it helps us a lot with the organization! (And it's fine if you change your mind.)
+
+## Contact
+
+Contact one of the [local organizers](/team) for anything practical.
+
+## Links
+
+- Getting started with Lean:
+  If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
+- Other events of interests:
+  For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
+
 <script setup>
   import RandomList from './helpers/RandomList.vue'
 
-  const items = [
+  const speakers = [
     {
       text: "Riccardo Brasca",
       link: "https://webusers.imj-prg.fr/~riccardo.brasca/",
@@ -70,26 +95,3 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
     },
   ];
 </script>
-
-<RandomList :items="items" :interval="120"/>
-
-See also the [event team page](/team).
-
-### Colloquium talks {#colloquium}
-
-Titles TBA...
-
-## Register {#register}
-
-In case you are interested, [please register, sooner rather that later](https://forms.gle/ePWKBwz5y7qMXt2GA), it helps us a lot with the organization! (And it's fine if you change your mind.)
-
-## Contact
-
-Contact one of the [local organizers](/team) for anything practical.
-
-## Links
-
-- Getting started with Lean:
-  If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
-- Other events of interests:
-  For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
