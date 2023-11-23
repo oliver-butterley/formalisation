@@ -21,9 +21,9 @@ Workshop and talks will be held in the Department of Mathematics, University of 
 | :---------: | :--------------- | :--------------- | :--------------- |
 | 10:00-11:00 |                  | workshop         | workshop         |
 | 11:00-12:00 |                  | ☕ 💻            | ☕ 💻            |
-| 12:00-13:00 | workshop         | workshop         | workshop         |
+| 12:00-13:00 | workshop         | **Colloquium 2** | workshop         |
 | 13:00-14:30 | 🍽️               | 🍽️               | 🍽️               |
-| 14:30-15:30 | workshop         | **Colloquium 2** | **Colloquium 3** |
+| 14:30-15:30 | workshop         | **Colloquium 3** | **Colloquium 4** |
 | 15:30-16:30 | **Colloquium 1** | ☕ 💻            | ☕ 💻            |
 | 16:30-17:30 | ☕ 🍷            | workshop         | workshop         |
 
@@ -52,15 +52,20 @@ See also the [event team page](/team).
 
 ### Colloquium talks {#colloquium}
 
-Titles TBA...
+|              | speaker                                           | title |
+| ------------ | ------------------------------------------------- | ----- |
+| Colloquium 1 | Filippo A. E. Nuccio Mortarino Majno di Capriglio | TBA   |
+| Colloquium 2 | Floris van Doorn                                  | TBA   |
+| Colloquium 3 | Gihan Marasingha                                  | TBA   |
+| Colloquium 4 | Kevin Buzzard                                     | TBA   |
 
 ## Register {#register}
 
-In case you are interested, [please register](https://forms.gle/ePWKBwz5y7qMXt2GA), sooner rather that later, it helps us a lot with the organization! (And it's fine if you change your mind.)
+In case you are interested, please [register](https://forms.gle/ePWKBwz5y7qMXt2GA), sooner rather that later, it helps us a lot with the organization! (And it's fine if you change your mind.)
 
 ## Contact
 
-Contact one of the [local organizers](/team) for anything practical.
+Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of the [local organizers](/team) for anything practical.
 
 ## Links
 
