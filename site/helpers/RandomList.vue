@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { random } from "./random";
 import { useIdle, useIntervalFn } from "@vueuse/core";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 interface Item {
   text: string;
@@ -10,12 +10,12 @@ interface Item {
 
 const props = defineProps<{
   items: Item[];
-  // interval in seconds for reordering list
+  // interval in milliseconds for reordering list
   interval?: number;
 }>();
 
 const { idle, lastActive } = useIdle(100); // 1/10 sec
-const items = ref(random(props.items));
+const items = ref(props.items);
 
 function randomize() {
   if (idle.value) {
@@ -23,11 +23,10 @@ function randomize() {
   }
 }
 
+onMounted(randomize);
+
 if (props.interval) {
-  const { pause, resume, isActive } = useIntervalFn(
-    randomize,
-    1000 * props.interval
-  );
+  const { pause, resume, isActive } = useIntervalFn(randomize, props.interval);
 }
 </script>
 

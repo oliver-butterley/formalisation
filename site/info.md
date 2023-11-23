@@ -46,7 +46,7 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 ### Speakers {#speakers}
 
-<RandomList :items="speakers" :interval="120"/>
+<RandomList :items="speakers" :interval="120000"/>
 
 See also the [event team page](/team).
 

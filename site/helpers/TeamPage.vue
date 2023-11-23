@@ -17,17 +17,14 @@ function randomize() {
 const props = defineProps<{
   // an array of team members
   team: TeamMember[];
-  // interval in seconds for reordering list
+  // interval in milliseconds for reordering list
   interval?: number;
 }>();
 
-const team = ref(random(props.team));
+const team = ref(props.team);
 const { idle, lastActive } = useIdle(100); // 1/10 sec
 if (props.interval) {
-  const { pause, resume, isActive } = useIntervalFn(
-    randomize,
-    1000 * props.interval
-  );
+  const { pause, resume, isActive } = useIntervalFn(randomize, props.interval);
 }
 </script>
 
