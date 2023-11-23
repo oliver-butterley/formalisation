@@ -7,4 +7,4 @@ layout: page
   import { data } from "./helpers/team.data.ts";
 </script>
 
-<TeamPage :team="data.team" :interval="120"/>
+<TeamPage :team="data.team" :interval="120000"/>
