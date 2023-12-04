@@ -29,20 +29,21 @@ Workshop and talks will be held in the Department of Mathematics, University of 
 
 ::: details Session topics (tap to view)
 
-|     | session             | topics                                                                         |
-| --- | ------------------- | ------------------------------------------------------------------------------ |
-| 1   | **introduction**    | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1&2) |
-| 2   | **basics**          | `apply`, `rewrite`, `linarith` (ch 2)                                          |
-| 3&4 | **logic**           | how to deal with all logical connectives and quantifiers (ch 3)                |
-| 5   | **sets, functions** | intersections, (pre)images, extensionality (ch 4)                              |
-| 6&7 | **topology**        | topological spaces, filters (ch 8)                                             |
-| 8   | **analysis**        | differentiation, integration (ch 9&10)                                         |
+|     | session             | speaker  | topics                                                                         |
+| --- | ------------------- | -------- | ------------------------------------------------------------------------------ |
+| 1   | **introduction**    | Riccardo | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1)   |
+| 2   | **basics**          | Gihan    | `apply`, `rewrite`, `linarith` (ch 2)                                          |
+| 3&4 | **logic**           | Riccardo | logical connectives and quantifiers (ch 3)                                     |
+| 5   | **sets, functions** | Filippo  | intersections, (pre)images, extensionality (ch 4)                              |
+| 6&7 | **topology**        | Floris   | topological spaces, filters (ch 9)                                             |
+
 
 Chapter numbers listed are from [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
 :::
 
 <!-- | 5                   | **numbers**     | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
 <!-- | 6                   | **algebra**     | groups, rings, fields, linear algebra                                        | -->
+<!-- | 8   | **analysis**        | differentiation, integration (ch 9&10)                                         | -->
 
 ### Speakers {#speakers}
 
