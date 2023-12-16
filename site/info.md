@@ -8,7 +8,7 @@ layout: doc
 
 In recent years computerized tools for verifying and manipulating proofs have become much more mature, and as a result formalized proofs are playing a meaningful role in mathematical innovation and teaching.
 
-This short program consists of three colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
+This short program consists of four colloquium talks on major aspects of formalization, in terms of both underlying ideas and concrete implementations, together with a series of workshop-style sessions intended to give participants first-hand knowledge using the [Lean](https://leanprover.github.io/) language, its [mathematical library](https://leanprover-community.github.io/index.html) and associated tools.
 We aim to provide an introduction to the area for working mathematicians and advanced students in a variety of fields.
 
 Copious quantities of coffee ☕ and space to code and collaborate will be available.
@@ -29,14 +29,13 @@ Workshop and talks will be held in the Department of Mathematics, University of 
 
 ::: details Session topics (tap to view)
 
-|     | session             | speaker  | topics                                                                         |
-| --- | ------------------- | -------- | ------------------------------------------------------------------------------ |
-| 1   | **introduction**    | Riccardo | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1)   |
-| 2   | **basics**          | Gihan    | `apply`, `rewrite`, `linarith` (ch 2)                                          |
-| 3&4 | **logic**           | Riccardo | logical connectives and quantifiers (ch 3)                                     |
-| 5   | **sets, functions** | Filippo  | intersections, (pre)images, extensionality (ch 4)                              |
-| 6&7 | **topology**        | Floris   | topological spaces, filters (ch 9)                                             |
-
+|     | session             | speaker  | topics                                                                       |
+| --- | ------------------- | -------- | ---------------------------------------------------------------------------- |
+| 1   | **introduction**    | Riccardo | tutorial on Lean, installation of Lean (if needed), topics in mathlib (ch 1) |
+| 2   | **basics**          | Gihan    | `apply`, `rewrite`, `linarith` (ch 2)                                        |
+| 3&4 | **logic**           | Riccardo | logical connectives and quantifiers (ch 3)                                   |
+| 5   | **sets, functions** | Filippo  | intersections, (pre)images, extensionality (ch 4)                            |
+| 6&7 | **topology**        | Floris   | topological spaces, filters (ch 9)                                           |
 
 Chapter numbers listed are from [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
 :::
