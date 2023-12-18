@@ -54,7 +54,7 @@ See also the [event team page](/team).
 
 |              | speaker                                           | title |
 | ------------ | ------------------------------------------------- | ----- |
-| Colloquium 1 | Filippo A. E. Nuccio Mortarino Majno di Capriglio | TBA   |
+| Colloquium 1 | Filippo A. E. Nuccio Mortarino Majno di Capriglio | How to enjoy a mathematical discussion with your laptop   |
 | Colloquium 2 | Floris van Doorn                                  | TBA   |
 | Colloquium 3 | Gihan Marasingha                                  | TBA   |
 | Colloquium 4 | Kevin Buzzard                                     | TBA   |
