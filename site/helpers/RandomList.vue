@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { random } from "./random";
-import { useIdle, useIntervalFn } from "@vueuse/core";
+import { useIntervalFn } from "@vueuse/core";
 import { ref, onMounted } from "vue";
 
 interface Item {
@@ -14,13 +14,10 @@ const props = defineProps<{
   interval?: number;
 }>();
 
-const { idle, lastActive } = useIdle(100); // 1/10 sec
 const items = ref(props.items);
 
 function randomize() {
-  if (idle.value) {
-    items.value = random(items.value);
-  }
+  items.value = random(items.value);
 }
 
 onMounted(randomize);
