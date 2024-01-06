@@ -2,7 +2,7 @@
 
 <script setup lang="ts">
 import { VPTeamPage, VPTeamPageTitle, VPTeamMembers } from "vitepress/theme";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { useIntervalFn } from "@vueuse/core";
 import { type TeamMember } from "./team.data";
 import { random } from "./random";
@@ -11,6 +11,8 @@ import TeamMembers from "./TeamMembers.vue";
 function randomize() {
   team.value = random(team.value);
 }
+
+onMounted(randomize);
 
 const props = defineProps<{
   // an array of team members
