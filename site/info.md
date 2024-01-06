@@ -52,16 +52,17 @@ See also the [event team page](/team).
 
 ### Colloquium talks {#colloquium}
 
-|              | speaker                                           | title |
-| ------------ | ------------------------------------------------- | ----- |
-| Colloquium 1 | Filippo A. E. Nuccio Mortarino Majno di Capriglio | How to enjoy a mathematical discussion with your laptop   |
-| Colloquium 2 | Floris van Doorn                                  | TBA   |
-| Colloquium 3 | Gihan Marasingha                                  | TBA   |
-| Colloquium 4 | Kevin Buzzard                                     | TBA   |
+|              | speaker                                           | title                                                   |
+| ------------ | ------------------------------------------------- | ------------------------------------------------------- |
+| Colloquium 1 | Filippo A. E. Nuccio Mortarino Majno di Capriglio | How to enjoy a mathematical discussion with your laptop |
+| Colloquium 2 | Floris van Doorn                                  | TBA                                                     |
+| Colloquium 3 | Gihan Marasingha                                  | TBA                                                     |
+| Colloquium 4 | Kevin Buzzard                                     | TBA                                                     |
 
 ## Register {#register}
 
-In case you are interested, please [register](https://forms.gle/ePWKBwz5y7qMXt2GA), sooner rather that later, it helps us a lot with the organization! (And it's fine if you change your mind.)
+In case you are interested, please [register](https://forms.gle/ePWKBwz5y7qMXt2GA).
+(Update 06/01/2024: we will do our best to accommodate everyone who wishes to attend, if registering very close to the event, please contact us if you don't hear back within a few days of registering.)
 
 ## Contact
 
