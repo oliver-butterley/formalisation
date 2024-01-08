@@ -15,7 +15,7 @@ Copious quantities of coffee ☕ and space to code and collaborate will be avail
 
 Workshop and talks will be held in the Department of Mathematics, University of Rome Tor Vergata ([Via della Ricerca Scientifica 1, 00133 Roma](https://osm.org/go/xcXqPCo1?m=)).
 
-## Schedule & speakers {#schedule}
+## Schedule {#schedule}
 
 |             | Wed 24/01/2024   | Thu 25/01/2024   | Fri 26/01/2024   |
 | :---------: | :--------------- | :--------------- | :--------------- |
@@ -40,24 +40,25 @@ Workshop and talks will be held in the Department of Mathematics, University of 
 Chapter numbers listed are from [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
 :::
 
-<!-- | 5                   | **numbers**     | how to work with the numbers in `ℕ`, `ℤ`, `ℚ`, `ℝ`, `ℂ` and relevant tactics | -->
-<!-- | 6                   | **algebra**     | groups, rings, fields, linear algebra                                        | -->
-<!-- | 8   | **analysis**        | differentiation, integration (ch 9&10)                                         | -->
+## Colloquium talks {#colloquium}
 
-### Speakers {#speakers}
+<ul :class="$style.colloquia">
+  <li v-for="talk in colloquia"> 
+    <span>
+      <span :class="$style.talkTitle"> {{ talk.title }}</span> by <em>{{ talk.speaker }}</em>
+    </span>
+    <p :class="$style.talkBody">
+      <div>{{ talk.abstract }}</div> 
+      <div>{{ talk.time }}</div>
+    </p>
+  </li>
+</ul>
+
+## Speakers {#speakers}
 
 <RandomList :items="speakers" :interval="120000"/>
 
 See also the [event team page](/team).
-
-### Colloquium talks {#colloquium}
-
-|              | speaker                                           | title                                                   |
-| ------------ | ------------------------------------------------- | ------------------------------------------------------- |
-| Colloquium 1 | Filippo A. E. Nuccio Mortarino Majno di Capriglio | How to enjoy a mathematical discussion with your laptop |
-| Colloquium 2 | Floris van Doorn                                  | The internals of Lean                                   |
-| Colloquium 3 | Gihan Marasingha                                  | TBA                                                     |
-| Colloquium 4 | Kevin Buzzard                                     | Formalising modern research mathematics                 |
 
 ## Register {#register}
 
@@ -100,4 +101,47 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
       link: "https://perso.univ-st-etienne.fr/nf51454h/",
     },
   ];
+
+  const colloquia = [
+    {
+      speaker: "Filippo A. E. Nuccio Mortarino Majno di Capriglio",
+      title: "How to enjoy a mathematical discussion with your laptop",
+      abstract: "Abstract: TBA",
+      time: "Wed 24/01/2024 15:30-16:30",
+    },
+    {
+      speaker: "Floris van Doorn",
+      title: "The internals of Lean",
+      abstract: "Abstract: TBA",
+      time: "Thu 25/01/2024, 12:00-13:00"
+    },
+    {
+      speaker: "Gihan Marasingha",
+      title: "Title: TBA",
+      abstract: "Abstract: TBA",
+      time: "Thu 25/01/2024, 14:30-15:30"
+    },
+    {
+      speaker: "Kevin Buzzard",
+      title: "Formalising modern research mathematics",
+      abstract: "Abstract: TBA (LTE / PFR / FLT) 😄",
+      time: "Fri 26/01/2024, 14:30-15:30"
+    },
+  ]
 </script>
+
+<style module>
+ul.colloquia {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+.talkTitle {
+  font-weight: 600;
+  font-size: 18px;
+}
+p.talkBody {
+  margin: 0px 10px 10px 10px;
+  font-weight: 300;
+}
+</style>
