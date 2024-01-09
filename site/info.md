@@ -62,7 +62,7 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 See also the [event team page](/team).
 
-## Practical info (#practical)
+## Practical info {#practical}
 
 The Mathematics department of the University of Rome Tor Vergata is not the easiest place to reach from the city centre. Our advice on public transport is to get to the Anagnina stop of Metro Line A and take the 20 or 500 (Atac) bus from there. They stop at several locations within campus. It's easiest (by far) that you get off at the right stop, the one near the "Macroarea di Scienze Matematiche Fisiche e Naturali (M.F.N.)", which is the building that hosts the Mathematics Department (together with other departments). Here’s a [Google map pointer to the building](https://maps.app.goo.gl/QXFjbkdeqgHf63jY7), that you can use to plan your trip, identify the right stop once you’re on the bus, etc.
 
