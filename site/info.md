@@ -44,17 +44,7 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 ## Colloquium talks {#colloquium}
 
-<ul :class="$style.colloquia">
-  <li v-for="talk in colloquia"> 
-    <span>
-      <span :class="$style.talkTitle"> {{ talk.title }}</span> by <em>{{ talk.speaker }}</em>
-    </span>
-    <p :class="$style.talkBody">
-      <div>{{ talk.abstract }}</div> 
-      <div>{{ talk.time }}</div>
-    </p>
-  </li>
-</ul>
+<TalkList :items="colloquia"/>
 
 ## Speakers {#speakers}
 
@@ -88,6 +78,7 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
 
 <script setup>
   import RandomList from './helpers/RandomList.vue'
+  import TalkList from './helpers/TalkList.vue'
 
   const speakers = [
     {
@@ -116,42 +107,26 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
     {
       speaker: "Filippo A. E. Nuccio Mortarino Majno di Capriglio",
       title: "How to enjoy a mathematical discussion with your laptop",
-      abstract: "Abstract: In this talk I will illustrate how certain programs, of which Lean is an example, permit to interact with a computer about the logical soundness of mathematical arguments. I will go through the details of well-known proofs trying to understand the feedback provided by the computer and will try to share the fun involved in the process.",
+      abstract: "In this talk I will illustrate how certain programs, of which Lean is an example, permit to interact with a computer about the logical soundness of mathematical arguments. I will go through the details of well-known proofs trying to understand the feedback provided by the computer and will try to share the fun involved in the process.",
       time: "Wed 24/01/2024 15:30-16:30",
     },
     {
       speaker: "Floris van Doorn",
       title: "The internals of Lean",
-      abstract: "Abstract: TBA",
+      abstract: "TBA",
       time: "Thu 25/01/2024, 12:00-13:00"
     },
     {
       speaker: "Gihan Marasingha",
       title: "The benefits and challenges of teaching proof with Lean",
-      abstract: "Abstract: This presentation will explore the pivotal role of the Lean in enhancing first-year undergraduates' understanding of mathematical proofs. I will share insights from my experiences and initial educational research on teaching a large first-year undergraduate cohort with Lean, focusing on how this tool can significantly impact student perception of proofs. Additionally, I will address the challenges encountered in teaching with Lean and the implications for learning and comprehension.",
+      abstract: "This presentation will explore the pivotal role of the Lean in enhancing first-year undergraduates' understanding of mathematical proofs. I will share insights from my experiences and initial educational research on teaching a large first-year undergraduate cohort with Lean, focusing on how this tool can significantly impact student perception of proofs. Additionally, I will address the challenges encountered in teaching with Lean and the implications for learning and comprehension.",
       time: "Thu 25/01/2024, 14:30-15:30"
     },
     {
       speaker: "Kevin Buzzard",
       title: "Formalising modern research mathematics",
-      abstract: "Abstract: A few years ago, the idea of formalising modern research level mathematics seemed completely out of reach. Since then, more and more examples have appeared. I'll go through several examples (some related to the mathematics of Scholze, Tao and Gowers), and talk about how the process is evolving, enabling multiple people to collaborate in the formalisation of modern research in real time.",
+      abstract: "A few years ago, the idea of formalising modern research level mathematics seemed completely out of reach. Since then, more and more examples have appeared. I'll go through several examples (some related to the mathematics of Scholze, Tao and Gowers), and talk about how the process is evolving, enabling multiple people to collaborate in the formalisation of modern research in real time.",
       time: "Fri 26/01/2024, 14:30-15:30"
     },
   ]
 </script>
-
-<style module>
-ul.colloquia {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-}
-.talkTitle {
-  font-weight: 600;
-  font-size: 18px;
-}
-p.talkBody {
-  margin: 0px 10px 10px 10px;
-  font-weight: 300;
-}
-</style>
