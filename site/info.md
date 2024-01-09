@@ -116,7 +116,7 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
     {
       speaker: "Filippo A. E. Nuccio Mortarino Majno di Capriglio",
       title: "How to enjoy a mathematical discussion with your laptop",
-      abstract: "Abstract: TBA",
+      abstract: "Abstract: In this talk I will illustrate how certain programs, of which Lean is an example, permit to interact with a computer about the logical soundness of mathematical arguments. I will go through the details of well-known proofs trying to understand the feedback provided by the computer and will try to share the fun involved in the process.",
       time: "Wed 24/01/2024 15:30-16:30",
     },
     {
