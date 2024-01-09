@@ -127,14 +127,14 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
     },
     {
       speaker: "Gihan Marasingha",
-      title: "Title: The benefits and challenges of teaching proof with Lean",
+      title: "The benefits and challenges of teaching proof with Lean",
       abstract: "Abstract: This presentation will explore the pivotal role of the Lean in enhancing first-year undergraduates' understanding of mathematical proofs. I will share insights from my experiences and initial educational research on teaching a large first-year undergraduate cohort with Lean, focusing on how this tool can significantly impact student perception of proofs. Additionally, I will address the challenges encountered in teaching with Lean and the implications for learning and comprehension.",
       time: "Thu 25/01/2024, 14:30-15:30"
     },
     {
       speaker: "Kevin Buzzard",
       title: "Formalising modern research mathematics",
-      abstract: "Abstract: TBA (LTE / PFR / FLT) 😄",
+      abstract: "Abstract: A few years ago, the idea of formalising modern research level mathematics seemed completely out of reach. Since then, more and more examples have appeared. I'll go through several examples (some related to the mathematics of Scholze, Tao and Gowers), and talk about how the process is evolving, enabling multiple people to collaborate in the formalisation of modern research in real time.",
       time: "Fri 26/01/2024, 14:30-15:30"
     },
   ]
