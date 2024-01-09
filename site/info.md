@@ -128,7 +128,7 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
     {
       speaker: "Gihan Marasingha",
       title: "Title: The benefits and challenges of teaching proof with Lean",
-      abstract: "Abstract: This presentation will explore the pivotal role of the Lean  in enhancing first-year undergraduates' understanding of mathematical proofs. I will share insights from my experiences and initial educational research on teaching a large first-year undergradaute cohort with Lean, focusing on how this tool can significantly impact student perception of proofs. Additionally, I will address the challenges encountered in teaching with Lean and the implications for learning and comprehension.",
+      abstract: "Abstract: This presentation will explore the pivotal role of the Lean in enhancing first-year undergraduates' understanding of mathematical proofs. I will share insights from my experiences and initial educational research on teaching a large first-year undergraduate cohort with Lean, focusing on how this tool can significantly impact student perception of proofs. Additionally, I will address the challenges encountered in teaching with Lean and the implications for learning and comprehension.",
       time: "Thu 25/01/2024, 14:30-15:30"
     },
     {
