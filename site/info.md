@@ -113,7 +113,7 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
     {
       speaker: "Floris van Doorn",
       title: "The internals of Lean",
-      abstract: "TBA",
+      abstract: "In this talk I will describe what goes on behind the scenes of Lean. I will explain the logic of Lean, called dependent type theory, what Lean tactics are and explain why we can trust proofs that are checked by Lean.",
       time: "Thu 25/01/2024, 12:00-13:00, Aula Dal Passo"
     },
     {
