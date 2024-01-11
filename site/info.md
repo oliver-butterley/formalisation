@@ -124,7 +124,7 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
     },
     {
       speaker: "Kevin Buzzard",
-      title: "Formalising modern research mathematics",
+      title: "Formalising modern research mathematics (Departmental Colloquium)",
       abstract: "A few years ago, the idea of formalising modern research level mathematics seemed completely out of reach. Since then, more and more examples have appeared. I'll go through several examples (some related to the mathematics of Scholze, Tao and Gowers), and talk about how the process is evolving, enabling multiple people to collaborate in the formalisation of modern research in real time.",
       time: "Fri 26/01/2024, 14:30-15:30, Aula Dal Passo"
     },
