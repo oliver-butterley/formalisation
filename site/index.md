@@ -24,9 +24,6 @@ hero:
       link: /team
 
 features:
-  # - title: Speakers
-  #   details: Riccardo Brasca, Kevin Buzzard, Floris van Doorn, Gihan Marasingha, Filippo A. E. Nuccio Mortarino Majno di Capriglio.
-  #   link: /team
   - title: Colloquium talks
     details: Four talks on major topics related to formalization, computer-verified proofs and digital mathematical libraries. This includes the underlying ideas, concrete implementations and recent successes.
     link: /info#schedule
