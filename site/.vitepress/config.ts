@@ -11,7 +11,7 @@ export default defineConfig({
     "A mini event concerning computer verified mathematics in Lean, Rome 24-26 January 2024.",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'shortcut icon', href: 'favicon.png', type: 'image/png' }],
+    ["link", { rel: "shortcut icon", href: "favicon.png", type: "image/png" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -33,8 +33,8 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: 'Department of Mathematics, University of Rome Tor Vergata.',
-      copyright: 'Supported by MIUR Excellence Department Project MatMod@TOV'
+      message: "Department of Mathematics, University of Rome Tor Vergata.",
+      // copyright: 'Supported by MIUR Excellence Department Project MatMod@TOV'
     },
     externalLinkIcon: false,
   },

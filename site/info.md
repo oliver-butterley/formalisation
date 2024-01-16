@@ -76,6 +76,13 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
 - Other events of interests:
   For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
 
+## Supporters
+
+- [MUR Excellence Department Project MatMod@TOV](https://www.mat.uniroma2.it/progetto/) awarded to the Department of Mathematics, University of Rome Tor Vergata, CUP E83C23000330006.
+- PRIN Grant ["Regular and stochastic behaviour in dynamical systems"](https://site.unibo.it/regular-stochastic-dynamical-systems/en) (PRIN 2017S35EHN).
+
+![Supporter stuff](./images/supporters.jpg)
+
 <script setup>
   import RandomList from './helpers/RandomList.vue'
   import TalkList from './helpers/TalkList.vue'
