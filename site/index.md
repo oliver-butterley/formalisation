@@ -6,7 +6,7 @@ hero:
   name: "Computer-verified proofs: 48 hours in Rome"
   text: "24-26 January 2024"
   tagline:
-    "A short program consisting of colloquium talks and workshop sessions focussed on Lean 4 and its mathematical library.
+    "A short program consisting of talks and workshop sessions focussed on Lean 4 and its mathematical library.
     We will explore diverse aspects of computer-verified proofs and digital mathematical libraries."
   image:
     src: robots.jpeg

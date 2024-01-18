@@ -2,7 +2,7 @@ export const team = [
   {
     name: "Riccardo Brasca",
     github: "riccardobrasca",
-    description: "Speaker",
+    description: "Speaker and scientific organizer",
     link: "https://webusers.imj-prg.fr/~riccardo.brasca/",
   },
   {
@@ -14,7 +14,7 @@ export const team = [
   {
     name: "Kevin Buzzard",
     github: "kbuzzard",
-    description: "Speaker",
+    description: "Speaker and scientific organizer",
     link: "https://wwwf.imperial.ac.uk/~buzzard/",
   },
   {
@@ -38,7 +38,7 @@ export const team = [
   {
     name: "Filippo A. E. Nuccio Mortarino Majno di Capriglio",
     github: "faenuccio",
-    description: "Speaker",
+    description: "Speaker and scientific organizer",
     link: "https://perso.univ-st-etienne.fr/nf51454h/",
   },
   {
