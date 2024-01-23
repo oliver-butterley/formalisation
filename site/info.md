@@ -27,7 +27,7 @@ Workshop and talks will be held in the Department of Mathematics, University of 
 | 15:30-16:30 | **Colloquium 1** | ☕ 💻            | ☕ 💻            |
 | 16:30-17:30 | ☕ 🍷            | workshop         | workshop         |
 
-The colloquium talks will be held in Aula dal Passo and the workshop sessions in Aula 26.
+The colloquium talks will be held in Aula Dal Passo and the workshop sessions in Aula 26.
 
 ::: details Session topics (tap to view)
 
