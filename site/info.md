@@ -77,8 +77,8 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
   If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
 - Other events of interests:
   For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
-- To use the Lean files in the cloud, [open the project in Codespaces](https://codespaces.new/fpvandoorn/LeanInRome).  Note that this requires a GitHub account and may take several minutes to load.
-
+- To use the Lean files in the cloud, [open the project in Codespaces](https://codespaces.new/fpvandoorn/LeanInRome).  Note that this requires a Github account.  Make sure the Machine type is 4-core, and then press Create codespace.  After 1-2 minutes you see a VSCode window in your browser. However, it is still busily downloading mathlib in the background, so give it another few minutes (5 to be safe) and then open a .lean file to start.
+  
 ## Supporters
 
 - [MUR Excellence Department Project MatMod@TOV](https://www.mat.uniroma2.it/progetto/) awarded to the Department of Mathematics, University of Rome Tor Vergata, CUP E83C23000330006.
