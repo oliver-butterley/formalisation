@@ -77,6 +77,7 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
   If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
 - Other events of interests:
   For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
+- To use the Lean files in the cloud, [open the project in Codespaces](https://codespaces.new/fpvandoorn/LeanInRome).  Note that this requires a GitHub account and may take several minutes to load.
 
 ## Supporters
 
