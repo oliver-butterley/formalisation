@@ -158,25 +158,29 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
       speaker: "Filippo A. E. Nuccio Mortarino Majno di Capriglio",
       title: "How to enjoy a mathematical discussion with your laptop",
       abstract: "In this talk I will illustrate how certain programs, of which Lean is an example, permit to interact with a computer about the logical soundness of mathematical arguments. I will go through the details of well-known proofs trying to understand the feedback provided by the computer and will try to share the fun involved in the process.",
-      time: "Wed 24/01/2024, 15:30-16:30, room 2001"
+      time: "Wed 24/01/2024, 15:30-16:30, room 2001",
+      link: "https://github.com/fpvandoorn/LeanInRome/blob/master/Colloquia/ConversationWithLean/Colloquium.pdf"
     },
     {
       speaker: "Floris van Doorn",
       title: "The internals of Lean",
       abstract: "In this talk I will describe what goes on behind the scenes of Lean. I will explain the logic of Lean, called dependent type theory, what Lean tactics are and explain why we can trust proofs that are checked by Lean.",
-      time: "Thu 25/01/2024, 12:00-13:00, room 2001"
+      time: "Thu 25/01/2024, 12:00-13:00, room 2001",
+      link: "https://github.com/fpvandoorn/LeanInRome/blob/master/Colloquia/LeanInternals/slides.pdf"
     },
     {
       speaker: "Gihan Marasingha",
       title: "The benefits and challenges of teaching proof with Lean",
       abstract: "This presentation will explore the pivotal role of Lean in enhancing first-year undergraduates' understanding of mathematical proofs. I will share insights from my experiences and initial educational research on teaching a large first-year undergraduate cohort with Lean, focusing on how this tool can significantly impact student perception of proofs. Additionally, I will address the challenges encountered in teaching with Lean and the implications for learning and comprehension.",
-      time: "Thu 25/01/2024, 14:30-15:30, room 2001"
+      time: "Thu 25/01/2024, 14:30-15:30, room 2001",
+      link: "https://github.com/fpvandoorn/LeanInRome/blob/master/Colloquia/TeachingWithLean/teaching_proof_with_lean_no_notes.pdf"
     },
     {
       speaker: "Kevin Buzzard",
       title: "Formalising modern research mathematics (Departmental Colloquium)",
       abstract: "A few years ago, the idea of formalising modern research level mathematics seemed completely out of reach. Since then, more and more examples have appeared. I'll go through several examples (some related to the mathematics of Scholze, Tao and Gowers), and talk about how the process is evolving, enabling multiple people to collaborate in the formalisation of modern research in real time.",
-      time: "Fri 26/01/2024, 14:30-15:30, room 2001"
+      time: "Fri 26/01/2024, 14:30-15:30, room 2001",
+      link: "https://github.com/fpvandoorn/LeanInRome/blob/master/Colloquia/FormalisingResearchMathematics/talk.pdf"
     },
   ]
 </script>

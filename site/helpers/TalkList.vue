@@ -4,6 +4,7 @@ interface Item {
   title: string;
   abstract: string;
   time: string;
+  link: string
 }
 
 const props = defineProps<{
@@ -21,7 +22,7 @@ const props = defineProps<{
         </li>
         <li>Abstract: {{ item.abstract }}</li>
         <li>
-          {{ item.time }}
+          {{ item.time }} (<a :href="item.link">talk slides</a>)
         </li>
       </ul>
     </li>
