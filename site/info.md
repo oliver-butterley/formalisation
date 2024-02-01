@@ -56,15 +56,51 @@ Chapter numbers listed are from [Mathematics in Lean](https://leanprover-communi
 
 See also the [event team page](/team).
 
+## Participants {#participants}
+
+Alessio Proietti,
+Amos Turchet,
+Carlangelo Liverani,
+Christoph Lhotka,
+Daniel K Lou,
+David Wiygul,
+Fabrizio Barroero,
+Fedor Part,
+Gabriele Gullà,
+Giovanni Canestrari,
+Giulia Cava,
+Guido Lido,
+Laura Capuano,
+Lorenzo Luccioli,
+Luca Ferrigno,
+Luca Giorgetti,
+Marco Lenci,
+Marco Pedicini,
+Marco Pozza,
+Minsung Kim,
+Nicola Ottolini,
+Oliver Butterley,
+Pietro Monticone,
+Rafael Greenblatt,
+Rinat Kamalov,
+Roberto Castorrini,
+Valerio Dose,
+Valery Isaev,
+Vincenzo Bonifaci,
+Vincenzo Morinelli,
+Yoh Tanimoto.
+
 ## Practical info {#practical}
 
 The Mathematics department of the University of Rome Tor Vergata is not the easiest place to reach from the city centre. Our advice on public transport is to get to the Anagnina stop of Metro Line A and take the 20 or 500 (Atac) bus from there. They stop at several locations within or near campus _(@)_. It's easiest (by far) that you get off at the right stop, the one near the "Macroarea di Scienze Matematiche Fisiche e Naturali (M.F.N.)", which is the building that hosts the Mathematics Department (together with other departments).
 
-_(@) If you take the 20 bus, the best stop is "Sorbona". As you get off the bus, walk uphill (in the direction of the bus) for a few metres, cross a little opening in the fence on your right and you'll find yourself in a large car park. Walk across it. The large not-so-tall building that you see on the other side is the "Macroarea" building. As you enter the building, Aula 26 will be on the same corridor, a (fairly) long way to your left._
+::: details (@) If you take the 20 bus (tap to view)
+
+The best stop is "Sorbona". As you get off the bus, walk uphill (in the direction of the bus) for a few metres, cross a little opening in the fence on your right and you'll find yourself in a large car park. Walk across it. The large not-so-tall building that you see on the other side is the "Macroarea" building. As you enter the building, Aula 26 will be on the same corridor, a (fairly) long way to your left.
+:::
 
 Here’s a [Google map pointer to the building](https://maps.app.goo.gl/QXFjbkdeqgHf63jY7), that you can use to plan your trip, identify the right stop once you’re on the bus, etc.
-
-See also [here](https://www.mat.uniroma2.it/dovesiamo2.php) for more transportation.
+See also [here](https://www.mat.uniroma2.it/dovesiamo2.php) for more transportation info.
 
 ## Register {#register}
 
