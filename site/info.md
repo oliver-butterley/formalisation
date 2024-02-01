@@ -15,6 +15,10 @@ Copious quantities of coffee ☕ and space to code and collaborate will be avail
 
 Workshop and talks will be held in the Department of Mathematics, University of Rome Tor Vergata ([Via della Ricerca Scientifica 1, 00133 Roma](https://osm.org/go/xcXqPCo1?m=)).
 
+## Workshop repo
+
+All the Lean code for the workshop, the exercises and the slides from each talk are available in the [event repo](https://github.com/fpvandoorn/LeanInRome).
+
 ## Schedule {#schedule}
 
 |             | Wed 24/01/2024   | Thu 25/01/2024   | Fri 26/01/2024   |
@@ -54,9 +58,9 @@ See also the [event team page](/team).
 
 ## Practical info {#practical}
 
-The Mathematics department of the University of Rome Tor Vergata is not the easiest place to reach from the city centre. Our advice on public transport is to get to the Anagnina stop of Metro Line A and take the 20 or 500 (Atac) bus from there. They stop at several locations within or near campus *(@)*. It's easiest (by far) that you get off at the right stop, the one near the "Macroarea di Scienze Matematiche Fisiche e Naturali (M.F.N.)", which is the building that hosts the Mathematics Department (together with other departments).
+The Mathematics department of the University of Rome Tor Vergata is not the easiest place to reach from the city centre. Our advice on public transport is to get to the Anagnina stop of Metro Line A and take the 20 or 500 (Atac) bus from there. They stop at several locations within or near campus _(@)_. It's easiest (by far) that you get off at the right stop, the one near the "Macroarea di Scienze Matematiche Fisiche e Naturali (M.F.N.)", which is the building that hosts the Mathematics Department (together with other departments).
 
-*(@) If you take the 20 bus, the best stop is "Sorbona". As you get off the bus, walk uphill (in the direction of the bus) for a few metres, cross a little opening in the fence on your right and you'll find yourself in a large car park. Walk across it. The large not-so-tall building that you see on the other side is the "Macroarea" building. As you enter the building, Aula 26 will be on the same corridor, a (fairly) long way to your left.*
+_(@) If you take the 20 bus, the best stop is "Sorbona". As you get off the bus, walk uphill (in the direction of the bus) for a few metres, cross a little opening in the fence on your right and you'll find yourself in a large car park. Walk across it. The large not-so-tall building that you see on the other side is the "Macroarea" building. As you enter the building, Aula 26 will be on the same corridor, a (fairly) long way to your left._
 
 Here’s a [Google map pointer to the building](https://maps.app.goo.gl/QXFjbkdeqgHf63jY7), that you can use to plan your trip, identify the right stop once you’re on the bus, etc.
 
@@ -77,8 +81,8 @@ Contact [Oliver Butterley](https://www.mat.uniroma2.it/butterley/) or another of
   If you haven't already, [get started](https://leanprover-community.github.io/get_started) by installing Lean or using it online.
 - Other events of interests:
   For those who want to go deeper into Lean and mathlib, check out some [other Lean events](https://leanprover-community.github.io/events.html).
-- To use the Lean files in the cloud, [open the project in Codespaces](https://codespaces.new/fpvandoorn/LeanInRome).  Note that this requires a Github account.  Make sure the Machine type is 4-core, and then press Create codespace.  After 1-2 minutes you see a VSCode window in your browser. However, it is still busily downloading mathlib in the background, so give it another few minutes (5 to be safe) and then open a .lean file to start.
-  
+- To use the Lean files in the cloud, [open the project in Codespaces](https://codespaces.new/fpvandoorn/LeanInRome). Note that this requires a Github account. Make sure the Machine type is 4-core, and then press Create codespace. After 1-2 minutes you see a VSCode window in your browser. However, it is still busily downloading mathlib in the background, so give it another few minutes (5 to be safe) and then open a .lean file to start.
+
 ## Supporters
 
 - [MUR Excellence Department Project MatMod@TOV](https://www.mat.uniroma2.it/progetto/) awarded to the Department of Mathematics, University of Rome Tor Vergata, CUP E83C23000330006.
